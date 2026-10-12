@@ -3,13 +3,82 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Four Cart Feature Section</title>
+    <title>Four Card Feature Section</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- ========================= -->
-    <!-- MAIN-->
-    <!-- ========================= -->
-    <main></main>
+    <main>
+      <section class="feature-section" aria-labelledby="feature-section__title">
+        <div class="feature-section__container">
+          <header class="feature-section__intro">
+            <p class="feature-section__eyebrow">Reliable, efficient delivery</p>
+            <h1 class="feature-section__title" id="feature-section__title">
+              Powered by Technology
+            </h1>
+            <p class="feature-section__description">
+              Our Artificial Intelligence powered tools use millions of project
+              data points to ensure that your project is successful
+            </p>
+          </header>
+
+          <ul class="feature-section__list" role="list">
+            <li class="feature-section__item">
+              <article class="feature-card feature-card--supervisor">
+                <h2 class="feature-card__title">Supervisor</h2>
+                <p class="feature-card__description">
+                  Monitors activity to identify project roadblocks
+                </p>
+                <img
+                  class="feature-card__icon"
+                  src="./images/icon-supervisor.svg"
+                  alt="Supervisor Icon"
+                />
+              </article>
+            </li>
+            <li class="feature-section__item">
+              <article class="feature-card feature-card--team-builder">
+                <h2 class="feature-card__title">Team Builder</h2>
+                <p class="feature-card__description">
+                  Scans our talent network to create the optimal team for your
+                  project
+                </p>
+                <img
+                  class="feature-card__icon"
+                  src="./images/icon-team-builder.svg"
+                  alt="Team Builder Icon"
+                />
+              </article>
+            </li>
+            <li class="feature-section__item">
+              <article class="feature-card feature-card--karma">
+                <h2 class="feature-card__title">Karma</h2>
+                <p class="feature-card__description">
+                  Regularly evaluates our talent to ensure quality
+                </p>
+                <img
+                  class="feature-card__icon"
+                  src="./images/icon-karma.svg"
+                  alt="Icon Karma"
+                />
+              </article>
+            </li>
+            <li class="feature-section__item">
+              <article class="feature-card feature-card--calculator">
+                <h2 class="feature-card__title">Calculator</h2>
+                <p class="feature-card__description">
+                  Uses data from past projects to provide better delivery
+                  estimates
+                </p>
+                <img
+                  class="feature-card__icon"
+                  src="./images/icon-calculator.svg"
+                  alt="Icon Calculator"
+                />
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
